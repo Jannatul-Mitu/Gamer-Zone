@@ -2,3 +2,69 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header start */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.logo img{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.logo h1{
+    color: #0B0223;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.logo h1 span{
+    color: #FF42A5;
+}
+
+/* nav start */
+.nav{
+    margin-right: 140px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 20px 0px 0px;
+}
+
+.nav-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 25px;
+}
+/* header end */
