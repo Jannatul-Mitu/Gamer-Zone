@@ -23,6 +23,11 @@ body{
     margin: 20px 0px 20px 140px;
 }
 
+.btn-1:hover{
+    color: #FF42A5;
+    background: #fff;
+    border: 1px solid #FF42A5;
+}
 .btn-2{
     display: inline-flex;
     padding: 12px 15px;
@@ -37,6 +42,12 @@ body{
     border: none;
     margin: 20px 0px;
     
+}
+
+.btn-2:hover{
+    color: #4EC5F7;
+    background: #fff;
+    border: 1px solid #4EC5F7;
 }
 /* header start */
 header{
