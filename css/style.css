@@ -236,6 +236,12 @@ header{
 .inner-card img{
     width: 260px;
     height: 350px;
+    transition: 1s;
+}
+
+.inner-card img:hover{
+    width: 300px;
+    height: 380px;
 }
 
 .inner-card p{
