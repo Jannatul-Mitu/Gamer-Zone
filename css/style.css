@@ -546,19 +546,62 @@ footer ul li a{
 
 .icon{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.icon i{
+.icon ul{
+    display: flex;
+}
+
+.icon ul li{
+    position: relative;
+    color: #666;
+    font-size: 1.9rem;
+    height: 60px;
+    width: 60px;
+    background: #171515;
+    line-height: 60px;
+    border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
 }
 
-.icon a{
-    text-decoration: none;
+.icon ul li:nth-child(1):hover{
+    color: #1DA1F2;
+    background: #fff;
+    box-shadow: 0 0 15px 2px #1DA1F2;
 }
 
-.icon a i{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.icon ul li:nth-child(2):hover{
+    color: #4267B2;
+    background: #fff;
+    box-shadow: 0 0 15px 2px #4267B2;
+}
+
+.icon ul li:nth-child(3):hover{
+    color: #ff0000;
+    background: #fff;
+    box-shadow: 0 0 15px 2px #ff0000;
+}
+
+.icon ul li:nth-child(4):hover{
+    color: #2867B2;
+    background: #fff;
+    box-shadow: 0 0 15px 2px #2867B2;
+}
+
+.icon ul li:nth-child(5):hover{
+    color: #E1306C;
+    background: #fff;
+    box-shadow: 0 0 15px 2px #E1306C;
+}
+
+.icon ul li:nth-child(6):hover{
+    color: black;
+    background: #fff;
+    box-shadow: 0 0 15px 2px white;
 }
 
 .li-2{
