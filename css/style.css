@@ -229,19 +229,70 @@ header{
     padding: 0px 80px 0px 140px;
 }
 
-.inner-card{
+.c-1, .c-2, .c-3, .c-4{
     margin-right: 10px;
+    position: relative;
+    display: inline-block;
 }
 
-.inner-card img{
+.img-1, .img-2, .img-3, .img-4{
     width: 260px;
     height: 350px;
     transition: 1s;
 }
 
-.inner-card img:hover{
-    width: 300px;
-    height: 380px;
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 89.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.c-1:hover .overlay{
+    opacity: 1;
+}
+
+.c-2:hover .overlay{
+    opacity: 1;
+}
+
+.c-3:hover .overlay{
+    opacity: 1;
+}
+
+.c-4:hover .overlay{
+    opacity: 1;
+}
+
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: 1s;
+}
+
+.c-1:hover .play-icon{
+    display: block;
+}
+
+.c-2:hover .play-icon{
+    display: block;
+}
+
+.c-3:hover .play-icon{
+    display: block;
+}
+
+.c-4:hover .play-icon{
+    display: block;
 }
 
 .inner-card p{
@@ -312,8 +363,8 @@ header{
     width: 100%;
     padding: 80px 0px;
     display: grid;
-    grid-template-columns: repeat(5, 180px);
     justify-content: center;
+    grid-template-columns: repeat(5, 180px);
     align-items: center;
     column-gap: 40px;
     row-gap: 20px;
@@ -440,46 +491,3 @@ footer p{
     line-height: 1.7em;
 }
 /* footer end */
-
-/* media query start */
-
-  @media screen and (min-width: 320px) and (max-width: 479px) {
-    header {
-      flex-direction: column;
-    }
-  
-    .logo {
-      width: 100%;
-      margin: auto;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-  
-    .nav {
-      width: 100%;
-      margin: auto;
-      margin-bottom: 40px;
-    }
-  
-    .nav ul {
-      flex-direction: column;
-    }
-  
-    .nav ul li {
-      margin-bottom: 20px;
-    }
-  
-    .banner-1 {
-      width: 100%;
-      flex-direction: column;
-      margin: 0px 20px;
-    }
-  
-    .b1-content {
-      width: 100%;
-      margin: auto;
-      text-align: center;
-    }
-  }
-  
-/* media query end */
