@@ -20,19 +20,20 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     border: none;
-    margin: 20px 0px 20px 140px;
+    margin: 20px 10px 20px 140px;
 }
 
 .btn-1:hover{
     color: #FF42A5;
     background: #fff;
     border: 1px solid #FF42A5;
+    box-shadow: 1px 1px 10px 5px #FF42A5;
+
 }
 .btn-2{
     display: inline-flex;
     padding: 12px 15px;
     align-items: flex-start;
-    gap: 10px;
     border-radius: 48px;
     color: #FFF;
     background-color: #4EC5F7;
@@ -48,6 +49,7 @@ body{
     color: #4EC5F7;
     background: #fff;
     border: 1px solid #4EC5F7;
+    box-shadow: 1px 1px 10px 5px #4EC5F7;
 }
 /* header start */
 header{
@@ -357,6 +359,75 @@ header{
     margin-top: 20px;
 }
 /* play game end */
+
+/* career section start */
+.career{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #FF42A5;
+}
+
+.career-content{
+    width: 50%;
+    margin-left: 140px;
+}
+
+.career-content h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.career-content p{
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    }
+
+.list{
+    display: flex;
+}
+
+.list p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.7em;
+}
+
+.career-content button{
+    display: inline-flex;
+    padding: 12px 15px;
+    align-items: flex-start;
+    border-radius: 48px;
+    color: #FF42A5;
+    background-color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0px;
+}
+
+.career-content button:hover{
+    background-color: #FF42A5;
+    color: #fff;
+    box-shadow: 1px 1px 10px 5px #FFF;
+}
+
+.career-img{
+    width: 50%;
+}
+
+.career-img img{
+    width: 100%;
+}
+/* career section end */
 
 /* button section start */
 .button{
